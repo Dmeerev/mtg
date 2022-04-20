@@ -18,11 +18,13 @@ public class tunnels {
     public static void genTurn (World world, Random random, int chunkX, int chunkZ){
 
         //получаем х и z + добавляем смещение да бы избежать каскадной генерации
-        int x = (chunkX << 4) + 8;
+        //int x = (chunkX << 4) + 8;
        // int z = (chunkZ << 4) + 8;
-
+int x  = chunkX;
         int z = 12;
         int y = 3;
+
+        System.out.print(chunkX);
 
 
 
