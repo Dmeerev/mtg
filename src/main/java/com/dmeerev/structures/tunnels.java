@@ -18,12 +18,13 @@ public class tunnels {
     public static void genTurn (World world, Random random, int chunkX, int chunkZ){
 
         //получаем х и z + добавляем смещение да бы избежать каскадной генерации
-        //int x = (chunkX << 4) + 8;
+        int x = (chunkX <<4)+ 0;
        // int z = (chunkZ << 4) + 8;
-int x  = chunkX;
-        int z = 12;
+
+        int z = 8;
         int y = 3;
 
+        System.out.print(chunkX);
         System.out.print(chunkX);
 
 
@@ -36,7 +37,7 @@ int x  = chunkX;
         MinecraftServer minecraftServer = world.getMinecraftServer();
         TemplateManager templateManager = worldServer.getStructureTemplateManager();
 
-        Template template = templateManager.get(minecraftServer, new ResourceLocation(info.MOD_ID + ":railfwd3"));
+        Template template = templateManager.get(minecraftServer, new ResourceLocation(info.MOD_ID + ":railfwd4"));
 
 //создаем обьект с настройками размещения(тут можно вертеть нашу постройку и т.д.)
         PlacementSettings settings = new PlacementSettings();
