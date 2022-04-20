@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "mtg",
+    "name": "metrogen",
+    "description": "--",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "--",
+    "updateUrl": "--",
+    "authorList": [
+      "dmeerev"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
