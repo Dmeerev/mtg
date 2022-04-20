@@ -38,7 +38,7 @@ public class tunnels {
 
 //создаем обьект с настройками размещения(тут можно вертеть нашу постройку и т.д.)
         PlacementSettings settings = new PlacementSettings();
-        settings.setRotation(Rotation.CLOCKWISE_90);
+       // settings.setRotation(Rotation.CLOCKWISE_90);
 
 //генерим на позиции из position используя настройки settings
         template.addBlocksToWorld(world, position, settings);
