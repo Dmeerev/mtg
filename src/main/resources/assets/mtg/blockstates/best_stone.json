@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": { "model": "tut:best_stone" }
+    }
+}
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "tut:blocks/best_stone"
+    }
+}
